@@ -1,0 +1,335 @@
+# Build directories
+build/
+out/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# Generated files
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+*.sym
+*.disasm
+*.asm
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python cache (if using Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# West build directory
+.west/
+twister-out/
+
+# Zephyr specific
+zephyr/.config
+zephyr/.config.old
+zephyr/include/generated/
+zephyr/misc/generated/
+zephyr/zephyr.dts
+zephyr/zephyr.dts.pre
+zephyr/zephyr_prebuilt.elf
+zephyr/dev_handles.c
+zephyr/isrlist.bin
+zephyr/isr_tables.c
+zephyr/linker.cmd
+zephyr/linker_zephyr_pre*.cmd
+zephyr/offsets.h
+zephyr/syscall_list.h
+zephyr/kobj-types-enum.h
+zephyr/otype-to-str.h
+zephyr/otype-to-size.h
+
+# Nordic tools
+*.jlink
+*.rtt
+
+# Documentation builds
+docs/_build/
+docs/build/
+
+# Test results
+test_results/
+junit.xml
+
+# Coverage reports
+coverage/
+*.gcov
+*.gcda
+*.gcno
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Archive files
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# Local configuration
+local.conf
+*.local
+
+# Editor specific
+.vimrc
+.nvimrc
+.exrc
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.cproject
+.settings/
+
+# Visual Studio
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*.scc
+
+# Code::Blocks
+*.cbp
+*.layout
+*.depend
+
+# Dev-C++
+*.dev
+*.layout
+*.win
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# CLion
+.idea/
+cmake-build-*/
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+*.moc.cpp
+*.qm
+*.prl
+
+# Conan
+conanfile.txt
+conaninfo.txt
+conanbuildinfo.*
+
+# KDevelop
+.kdev4/
+*.kdev4
+
+# Ctags and Cscope
+tags
+TAGS
+.tags
+.tags_sorted_by_file
+cscope.files
+cscope.in.out
+cscope.out
+cscope.po.out
+
+# GNU Global
+GRTAGS
+GTAGS
+GPATH
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Nano
+*.save
+
+# Gedit
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+
+# Local environment
+.env
+.env.local
+.env.production
+.env.development
+
+# Version control
+.hg/
+.svn/
+.bzr/
+
+# Merge conflict files
+*.orig
+*.rej
+
+# Patch files
+*.patch
+*.diff
+
+# Documentation
+*.pdf
+*.ps
+*.dvi
+
+# Compressed files
+*.gz
+*.bz2
+*.xz
+*.lzma
+*.Z
+
+# Application specific
+*.app
+*.exe
+*.dmg
+*.pkg
+*.deb
+*.rpm
+
+# Core dumps
+core
+core.*
+vgcore.*
+
+# Performance profiling
+*.prof
+*.gprof
+*.callgrind
+*.cachegrind
+*.massif
+*.memcheck
+
+# Static analysis
+*.sarif
+*.xml
+
+# Certificates and keys
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Local scripts
+local_*
+my_*
+test_*
+
+# Backup directories
+backup/
+backups/
+
+# Node.js (if using Node.js tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Python virtual environments
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST

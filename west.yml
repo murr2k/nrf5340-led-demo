@@ -1,0 +1,81 @@
+# west.yml - West manifest for nRF5340 LED Demo
+#
+# This file defines the project dependencies and configuration
+# for the West meta-tool used by Zephyr RTOS.
+
+manifest:
+  # Project definition
+  projects:
+    - name: nrf5340-led-demo
+      path: .
+      revision: main
+      url: https://github.com/murr2k/nrf5340-led-demo
+      description: "nRF5340 LED demonstration project using Zephyr RTOS"
+      
+  # Self reference
+  self:
+    path: nrf5340-led-demo
+    
+  # Default configuration
+  defaults:
+    remote: origin
+    revision: main
+    
+  # Remote repositories
+  remotes:
+    - name: origin
+      url-base: https://github.com/murr2k
+      
+  # West configuration
+  west-commands:
+    - file: scripts/west-commands.yml
+      
+  # Project metadata
+  project:
+    name: nrf5340-led-demo
+    version: 1.0.0
+    license: Apache-2.0
+    author: Murray Kopit
+    description: |
+      A comprehensive LED demonstration project for the nRF5340 Development Kit
+      using Zephyr RTOS. Features multiple LED patterns, logging, and robust
+      error handling.
+    
+    # Supported boards
+    boards:
+      - nrf5340dk_nrf5340_cpuapp
+      
+    # Required Zephyr version
+    zephyr:
+      version: ">=3.4.0"
+      
+    # Build configuration
+    build:
+      default-board: nrf5340dk_nrf5340_cpuapp
+      cmake-args:
+        - -DBOARD=nrf5340dk_nrf5340_cpuapp
+        - -DCONF_FILE=prj.conf
+        
+    # Documentation
+    docs:
+      build: true
+      output: docs/
+      
+    # Testing configuration
+    tests:
+      enabled: true
+      boards:
+        - nrf5340dk_nrf5340_cpuapp
+        
+  # Additional metadata
+  meta:
+    created: "2024-07-09"
+    updated: "2024-07-09"
+    keywords:
+      - nrf5340
+      - zephyr
+      - led
+      - demo
+      - embedded
+      - nordic
+      - rtos
