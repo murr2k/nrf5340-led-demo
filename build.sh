@@ -15,7 +15,7 @@ NC='\033[0m' # No Color
 
 # Project configuration
 PROJECT_NAME="nRF5340 LED Demo"
-BOARD="nrf5340dk_nrf5340_cpuapp"
+BOARD="nrf5340dk/nrf5340/cpuapp"
 BUILD_DIR="build"
 TARGET_DIR="target"
 
